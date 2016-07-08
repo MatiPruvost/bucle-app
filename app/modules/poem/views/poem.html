@@ -1,0 +1,28 @@
+<md-content class="poem">
+ <md-toolbar>
+	 <div class="md-toolbar-tools">
+		 <md-button class="md-icon-button" aria-label="Menu" ng-click="go()">
+			 <md-icon md-svg-icon="img/icons/menu.svg"></md-icon>
+		 </md-button>
+	 </div>
+ </md-toolbar>
+	<div class="content">
+    <div class="chapter-body anchor" ng-repeat="chapter in poems"
+      id="chapter{{$index}}">
+      <h2 class="chapter-title">
+        {{ chapter.title }}
+      </h2>
+      <div class="anchor" ng-repeat="poem in chapter.poems"
+        id="chapter{{$parent.$index}}poem{{$index}}">
+        <h4 class="poem-title">
+          <span>{{ poem.title }}</span>
+        </h4>
+    		<div class="poem-body" ng-repeat="stanza in poem.poem">
+    			<p class="stanza" ng-repeat="verse in stanza">
+    				<span class="verse">{{ verse }}</span><br />
+    			</p>
+        </div>
+      </div>
+		</div>
+  </div>
+</md-content>

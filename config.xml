@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.poems" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Poems</name>
+    <description>
+        Poems
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Poems
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="permissions" value="none" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreenDelay" value="3000" />
+    <preference name="SplashMaintainAspectRatio" value="true|false" />
+    <platform name="android">
+        <icon density="ldpi" src="res/drawable-ldpi/icon.png" />
+        <icon density="mdpi" src="res/drawable-mdpi/icon.png" />
+        <icon density="hdpi" src="res/drawable-hdpi/icon.png" />
+        <icon density="xhdpi" src="res/drawable-xhdpi/icon.png" />
+        <icon density="xxhdpi" src="res/drawable-xxhdpi/icon.png" />
+        <icon density="xxxhdpi" src="res/drawable-xxxhdpi/icon.png" />
+        <splash density="land-hdpi" src="res/drawable-land-hdpi/screen.png" />
+        <splash density="land-ldpi" src="res/drawable-land-ldpi/screen.png" />
+        <splash density="land-mdpi" src="res/drawable-land-mdpi/screen.png" />
+        <splash density="land-xhdpi" src="res/drawable-land-xhdpi/screen.png" />
+        <splash density="port-hdpi" src="res/drawable-port-hdpi/screen.png" />
+        <splash density="port-ldpi" src="res/drawable-port-ldpi/screen.png" />
+        <splash density="port-mdpi" src="res/drawable-port-mdpi/screen.png" />
+        <splash density="port-xhdpi" src="res/drawable-port-xhdpi/screen.png" />
+    </platform>
+    <plugin name="org.apache.cordova.splashscreen" spec="~1.0.0" />
+</widget>

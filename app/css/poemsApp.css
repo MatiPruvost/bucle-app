@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'baskerville';
+  font-weight: normal;
+  src: url('fonts/LibreBaskerville-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'kalam';
+  font-weight: normal;
+  src: url('fonts/Kalam-Regular.ttf');
+}
+
+#uiview {
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+}
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar),
+md-toolbar:not(.md-menu-toolbar) {
+  background-color: white;
+  color: black;
+}
+
+md-toolbar.md-default-theme:not(.md-menu-toolbar),
+md-toolbar:not(.md-menu-toolbar) {
+  background-color: white;
+  color: black;
+  position: fixed;
+}
+
+.menu md-toolbar md-icon svg,
+.poems md-toolbar md-icon svg,
+.poem md-toolbar md-icon svg {
+  fill: black;
+}
+
+.home .background .background-img,
+.home h1 {
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

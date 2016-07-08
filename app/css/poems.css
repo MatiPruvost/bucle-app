@@ -1,0 +1,17 @@
+.poems .list {
+  margin-top: 56px; /* Margin header = 56 */
+  font-size: 0.90em;
+}
+
+.poems .list {
+  margin-top: 56px; /* Margin header = 56 */
+  font-size: 0.90em;
+}
+
+.poems .chapters .chapter-title .md-list-item-inner {
+  font-weight: bold;
+}
+
+.poems .poem {
+  margin-left: 20px;
+}
