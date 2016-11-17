@@ -9,7 +9,7 @@ angular
   .module('core')
   .constant('Poems', [
     {
-      title: "I. Poemas para leer en Nueva Córdoba",
+      title: "Poemas para leer en Nueva Córdoba",
       poems: [
         {
           title: "Madera de caja",
@@ -132,7 +132,7 @@ angular
       ]
     },
     {
-      title: "II. Iteración",
+      title: "Iteración",
       poems: [
         {
           title: "En una partida de ajedrez",
@@ -142,26 +142,15 @@ angular
               "son como el redoble",
               "de un millón de tambores.",
               "Caminatas apresuradas,",
-              "filas de autos y colectivos",
+              "filas de autos,",
               "colectivos llenos",
               "llenos de vidas paralelas."
             ],
             [
-              "Historias personales",
-              "transitan calles,",
-              "surcan veredas,",
-              "tejen la trama de los destinos",
-              "como una cuadrícula estándar,",
+              "Cuadrícula estándar",
               "plagadas de adversidad",
-              "decisiones y consecuencias."
-            ],
-            [
-              "Avanzar la superación,",
-              "una acción absurda.",
-              "La primer línea de defensa",
-              "hasta encontrar la transformación,",
-              "perpetua búsqueda idealizada",
-              "en la aventura de vivir",
+              "decisiones y consecuencias",
+              "la aventura de vivir",
               "el recorrido a la virtud."
             ]
           ]
@@ -186,8 +175,8 @@ angular
               "lo que me vino a la mente",
               "fueron unas imagenes",
               "diminutas",
-              "terrestriales.",
-              "El pibe limpiando vidrios",
+              "terrestriales",
+              "el pibe limpiando vidrios",
               "la señora del perro",
               "la piba del bondi."
             ],
@@ -200,7 +189,7 @@ angular
               "Entonces",
               "tomamos algo",
               "vimos una peli",
-              "al té no le puse azucar",
+              "al té no le puse azúcar",
               "y hablamos",
               "hasta que la ventana",
               "se hizo grande",
@@ -212,7 +201,7 @@ angular
               "ya sé",
               "hay veces que la pasas mal",
               "quisieras aplastarlos",
-              "pero sos todo",
+              "pero sos",
               "como un universo.",
               "La muerte",
               "te hubiera quedado",
@@ -251,6 +240,181 @@ angular
               "capaz de sobrevivir",
               "hasta el final",
               "es el rey."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      title: "Autobiografía no autorizada de Juan Desprovisto",
+      poems: [
+        {
+          title: "El colegio público",
+          poem: [
+            [
+              "Durante segundo año",
+              "lo más importante que hice",
+              "fue alargar el camino por cinco cuadras",
+              "para cruzarme con Micaela Van Der Gomez."
+            ]
+          ]
+        },
+        {
+          title: "Amonestaciones",
+          poem: [
+            [
+              "El problema no fue que nos amonestaran.",
+              "El problema fue que el profesor empezó a odiar la profesión."
+            ]
+          ]
+        },
+        {
+          title: "La era de la afición al boxeo",
+          poem: [
+            [
+              "Corría. Como si no hubiera más vida."
+            ]
+          ]
+        },
+        {
+          title: "Durante el año que amé a Martina Di Tomato",
+          poem: [
+            [
+              "Le decía",
+              "y escribía:",
+              "Me gusta como sos",
+              "no cambies nunca. "
+            ]
+          ]
+        },
+        {
+          title: "La afición es cosa del pasado",
+          poem: [
+            [
+              "Tenía que golpear",
+              "esquivar",
+              "y bailar."
+            ],
+            [
+              "Ahora iba en serio."
+            ]
+          ]
+        },
+        {
+          title: "Porqué no merecí el amor de Micaela Van Der Gomez",
+          poem: [
+            [
+              "Micaela dijo:",
+              "Podría escribir cartas de amor",
+              "este es el tiempo de las aves",
+              "de las almas desafiantes de la gravedad",
+              "lo que está en el suelo debe morir",
+              "la ingravidez debería besarnos",
+              "¡Librarnos en la batalla!",
+              "Cruzar montañas con mis cartas",
+              "señalar el horizonte."
+            ],
+            [
+              "Le dije:",
+              "Micaela, el amor es para los vencidos."
+            ]
+          ]
+        },
+        {
+          title: "Egreso",
+          poem: [
+            [
+              "En la última semana de clases",
+              "quisimos hacer todo lo que no hicimos",
+              "en todo el año."
+            ]
+          ]
+        },
+        {
+          title: "Micaela dijo",
+          poem: [
+            [
+              "Detesto",
+              "tus labios",
+              "tus cejas",
+              "tu nariz",
+              "después de una pelea."
+            ],
+            [
+              "Tus moretones",
+              "tus cortes",
+              "tus contusiones",
+              "le rezan a un dios propio,",
+              "lo llaman",
+              "el creador de la serpiente."
+            ],
+            [
+              "Todo me dice que te abrace."
+            ],
+            [
+              "La historia de tus adversarios",
+              "Está escrita en tu rostro."
+            ]
+          ]
+        },
+        {
+          title: "Hablemos del boxeo",
+          poem: [
+            [
+              "El boxeo termina",
+              "donde empieza el show."
+            ],
+            [
+              "El desayuno de la madrugada",
+              "las carreras por el borde de la ciudad",
+              "Nelson, el del mate en la vereda me dice:",
+              "Los golpes son tuyos pero la fuerza es de todos campeón."
+            ],
+            [
+              "Los muros se crean",
+              "para ser derribados."
+            ],
+            [
+              "La bolsa colgada",
+              "los guantes desgastados",
+              "el entrenador llega en bici y me dice:",
+              "Es domingo y llorarás truenos."
+            ]
+          ]
+        },
+        {
+          title: "La época de la Universidad",
+          poem: [
+            [
+              "Abandoné la Universidad",
+              "justo a tiempo."
+            ]
+          ]
+        },
+        {
+          title: "A la hora del knockout",
+          poem: [
+            [
+              "Te levantas",
+              "para ver la esencia y la inconsciencia,",
+              "no estoy de pie por esta pelea",
+              "estoy de pie por lo que me hizo llegar acá."
+            ],
+            [
+              "El sabor metálico que merodea en la boca,",
+              "la sangre que se escurre por mirar el piso,",
+              "este soy yo cuando me derrumbo."
+            ]
+          ]
+        },
+        {
+          title: "De cuando gané el título nacional",
+          poem: [
+            [
+              "No hablaré de los malvados",
+              "ni los benevolentes del boxeo",
+              "hablaré de Micaela que eligió",
+              "la canción de mi entrada al estadio."
             ]
           ]
         }
