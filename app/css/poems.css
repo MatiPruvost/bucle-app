@@ -8,9 +8,8 @@
   font-size: 0.90em;
 }
 
-.poems .list {
-  margin-top: 56px; /* Margin header = 56 */
-  font-size: 0.90em;
+.poems .list md-list {
+  padding: 0;
 }
 
 .poems .chapters .chapter-title .md-list-item-inner {
@@ -19,4 +18,9 @@
 
 .poems .poem {
   margin-left: 20px;
+}
+
+.poems .chapter-title div,
+.poems .poem div {
+  line-height: 20px;
 }
