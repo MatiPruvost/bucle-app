@@ -7,18 +7,18 @@
 	 </div>
  </md-toolbar>
 	<div class="content">
-    <div class="chapter-body anchor" ng-repeat="chapter in poems"
+    <div class="chapter-body anchor" ng-repeat="chapter in poems track by $index"
       id="chapter{{$index}}">
       <h2 class="chapter-title">
         {{ chapter.title }}
       </h2>
-      <div class="anchor" ng-repeat="poem in chapter.poems"
+      <div class="anchor" ng-repeat="poem in chapter.poems track by $index"
         id="chapter{{$parent.$index}}poem{{$index}}">
         <h4 class="poem-title">
           <span>{{ poem.title }}</span>
         </h4>
-    		<div class="poem-body" ng-repeat="stanza in poem.poem">
-    			<p class="stanza" ng-repeat="verse in stanza">
+    		<div class="poem-body" ng-repeat="stanza in poem.poem track by $index">
+    			<p class="stanza" ng-repeat="verse in stanza track by $index">
     				<span class="verse">{{ verse }}</span><br />
     			</p>
         </div>

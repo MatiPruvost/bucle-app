@@ -1,3 +1,8 @@
+.poems .title {
+  font-family: 'Rochester';
+  font-size: 1.3em;
+}
+
 .poems .list {
   margin-top: 56px; /* Margin header = 56 */
   font-size: 0.90em;
