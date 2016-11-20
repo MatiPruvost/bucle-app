@@ -1,8 +1,7 @@
 .poem .content {
-  margin: 10px;
+  margin: 15px;
   margin-top: 86px; /* Margin header + margin top = 54 + 30*/
   margin-bottom: 20px;
-  font-family: 'baskerville';
   font-size: 0.90em;
 }
 

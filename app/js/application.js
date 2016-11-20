@@ -14,6 +14,12 @@ angular
                 .primaryPalette('blue')
                 .accentPalette('light-green');
         }
+    ])
+    .run([
+      'BackButtonService',
+      function (BackButtonService) {
+        BackButtonService.handler();
+      }
     ]);
 
 //Then define the init function for starting up the application

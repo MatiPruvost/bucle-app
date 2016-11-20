@@ -5,19 +5,19 @@
 			 <md-icon md-svg-icon="img/icons/left.svg"></md-icon>
 		 </md-button>
 		 <h2>
-			 <span>Poemas</span>
+			 <span class="title">Bucle</span>
 		 </h2>
 	 </div>
  </md-toolbar>
 
   <div class="list">
-    <div ng-repeat="chapter in poems">
+    <div ng-repeat="chapter in poems track by $index">
       <md-list class="chapters">
         <md-list-item  class="chapter-title" ng-click="go($index, 0);">
           {{ chapter.title }}
         </md-list-item>
       </md-list>
-        <md-list class="poem" ng-repeat="poem in chapter.poems">
+        <md-list class="poem" ng-repeat="poem in chapter.poems track by $index">
           <md-list-item  ng-click="go($parent.$index, $index + 1);">
             {{ poem.title }}
           </md-list-item>
