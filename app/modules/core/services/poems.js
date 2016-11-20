@@ -227,7 +227,7 @@ angular
             ],
             [
               "Nosotros lo llamamos",
-              "El palacio de la condena."
+              "el palacio de la condena."
             ]
           ]
         },
